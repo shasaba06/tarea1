@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "author" content="Sharon Sandoval Barrantes" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link  rel = "shortcut icon"  href = "favicon.ico"  type = "image / x-icon" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fuentes/fuentes.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap" rel = "hoja de estilo">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title> ****DETALLES DEYS****</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0">
+          <nav class="sticky-top navbar navbar-light">
+                 <a class="navbar-brand" >
+                  <img src="IMG/logo.png" alt="logo" width="80" height="80" class="d-inline-block align-text-right">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#Menu_principal" aria-expanded="false" aria-label="Botón para mostrar Menu principal">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <!--Menu offcanvas-->
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="Menu_principal" aria-labelledby="Menu principal del sitio">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Opciones de Detalles Deys</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <!--Mi menú-->
+                  <nav class="nav flex-column">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="productos.html">Productos</a>
+                    <a class="nav-link" href="materiales.html">Materiales</a>
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                    <a class="nav-link" href="Disponible.html">Productos Nuevos</a>
+                    <a class="nav-link" href="tienda.html">Comprar</a>
+                    <a class="nav-link" href="contactenos.html">Contáctenos</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Promociones</a>
+                  </nav>  <!--Fin Mi menú-->
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="btn_materiales" data-bs-toggle="dropdown">
+                     Materiales
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="Lista de materiales">
+                      <li><a class="dropdown-item" href="#">Para tejer</a></li>
+                      <li><a class="dropdown-item" href="#">Para tarjetas</a></li>
+                      <li><a class="dropdown-item" href="#">para decoraciones varias</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+           </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="text-center">***Productos Nuevos***</h1>
+        </section>
+<!--Carrusel-->
+<div id="carouselExampleControls" class="carousel slide bg_carrusel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+            <div class="row">
+                <img src="IMG/productos nuevos/bolso1.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+                <img src="IMG/productos nuevos/bolso2.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+                <img src="IMG/productos nuevos/bolso3.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+            </div>
+      </div>
+      <div class="carousel-item">
+            <div clas="row">
+              <img src="IMG/productos nuevos/camisa1.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+              <img src="IMG/productos nuevos/camisa2.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+              <img src="IMG/productos nuevos/camisa3.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+            </div>
+      </div>
+      <div class="carousel-item">
+            <div clas="row">
+                <img src="IMG/productos nuevos/sombrero1.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+                <img src="IMG/productos nuevos/sombrero1.png" class="col-sm-4 mx-auto d-block w-100" alt="...">
+                <img src="IMG/productos nuevos/sombrero3.jpg" class="col-sm-4 mx-auto d-block w-100" alt="...">
+            </div>
+     </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    </main>
+       
+    <footer class="row row-cols-1 text-center">
+        <img class="img-fluid" src="img/linea.png">
+        <p>Derechos reservados 2021</p>
+        <p>Email: <a href="mailto:ssss@hotmail.com">ssss@hotmail.com</a></p>
+        <p>Teléfono <a href="tel:26630000">26630000</a></p>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

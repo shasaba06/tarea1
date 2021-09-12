@@ -1,0 +1,4 @@
+Disallow:/multimedios
+Allow:/multimedios/pdf
+Disallow:/login.html
+Disallow:/procesarlogin.html
